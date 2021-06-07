@@ -7,13 +7,21 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
+    <SideNav/>
+    <FooterNav/>
 
   </v-app>
 </template>
 
 <script>
+import SideNav from './components/SideNav'
+import FooterNav from './components/FooterNav'
 export default {
   name: 'App',
+  components: {
+    SideNav,
+    FooterNav
+  },
   data () {
     return {
       //
