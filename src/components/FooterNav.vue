@@ -1,3 +1,3 @@
 <template>
-    <v-footer color="info" dark app>Vuetify</v-footer>
+    <v-footer color="ellor" dark app>Vuetify</v-footer>
 </template>
