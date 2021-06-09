@@ -1,6 +1,5 @@
 <template>
   <v-layout wrap style="height: 200px;">
-
     <v-container>
       <v-layout justify-center>
         <v-btn color="pink" dark @click.stop="drawer = !drawer">Toggle</v-btn>
